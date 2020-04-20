@@ -2,10 +2,6 @@ package com.dunzhixuan.auto_preferences_compile;
 
 /**
  * Some consts used in processors
- *
- * @author Alex <a href="mailto:zhilong.liu@aliyun.com">Contact me.</a>
- * @version 1.0
- * @since 16/8/24 20:18
  */
 public class Consts {
   public static final String PARCELABLE = "android.os.Parcelable";
