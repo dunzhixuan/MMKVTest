@@ -11,7 +11,7 @@ dependencies {
 sourceCompatibility = "7"
 targetCompatibility = "7"
 
-配置2
+//配置2
 publish {
     userOrg = 'dunzhixuan'             // Binary用户名
     repoName = 'zhixuan'          // Binary上的刚才新建的仓库名（Repository）
