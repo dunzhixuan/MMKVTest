@@ -1,4 +1,4 @@
-package com.dunzhixuan.auto_preferences_compile;
+package com.dunzhixuan.auto_preferences_compiler;
 
 import com.google.auto.service.AutoService;
 import com.squareup.javapoet.ClassName;

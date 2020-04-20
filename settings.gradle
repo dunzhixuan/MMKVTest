@@ -1,3 +1,3 @@
 rootProject.name='MMKVTest'
 include ':app'
-include ':auto_preferences_compile'
+include ':auto-preferences-compiler'

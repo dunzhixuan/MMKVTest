@@ -1,4 +1,4 @@
-package com.dunzhixuan.auto_preferences_compile;
+package com.dunzhixuan.auto_preferences_compiler;
 
 /**
  * Some consts used in processors

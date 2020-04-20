@@ -1,11 +1,11 @@
-package com.dunzhixuan.auto_preferences_compile;
+package com.dunzhixuan.auto_preferences_compiler;
 
 import javax.lang.model.element.Element;
 import javax.lang.model.type.TypeMirror;
 import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 
-import static com.dunzhixuan.auto_preferences_compile.Consts.PARCELABLE;
+import static com.dunzhixuan.auto_preferences_compiler.Consts.PARCELABLE;
 
 
 /**

@@ -36,5 +36,5 @@ dependencies {
 
     implementation 'me.zeyuan:auto-preferences-annotations:0.5.1'
 //    annotationProcessor 'me.zeyuan:auto-preferences-compiler:0.5.1'
-    annotationProcessor project(':auto_preferences_compile')
+    annotationProcessor project(':auto-preferences-compiler')
 }
