@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_write_sp_int"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="write sp int"/>
+
+    <Button
+        android:id="@+id/btn_read_int_by_sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="read int by sp"/>
+
+    <Button
+        android:id="@+id/btn_improt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="import"/>
+
+    <Button
+        android:id="@+id/btn_read_int_by_mmkv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="read int by mmkv"/>
+
+    <Button
+        android:id="@+id/btn_improt_empty"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="import empty"/>
+
+    <Button
+        android:id="@+id/btn_remove"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="remove"/>
+
+    <Button
+        android:id="@+id/btn_improt_by_file"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="import by file"/>
+</LinearLayout>
