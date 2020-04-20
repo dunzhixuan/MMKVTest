@@ -1,4 +1,5 @@
 apply plugin: 'java-library'
+apply plugin: 'com.novoda.bintray-release'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -9,3 +10,14 @@ dependencies {
 
 sourceCompatibility = "7"
 targetCompatibility = "7"
+
+// 配置2
+publish {
+    userOrg = 'dunzhixuan'             // Binary用户名
+    repoName = 'zhixuan'          // Binary上的刚才新建的仓库名（Repository）
+    groupId = 'vk.zhixuan'        // 依赖名compile 'x:y:z'中的包名x
+    artifactId = 'auto-preferences-compiler'        // 依赖名compile 'x:y:z'中的项目名y
+    publishVersion = '1.0.0'          // 依赖名compile 'x:y:z'中的版本号z
+    desc = 'a auto preferences compiler base mmkv'            // 对该开源组件的说明
+    website = 'https://github.com/dunzhixuan/MMKVTest.git'  // VCS地址，即填写项目上传的Github地址
+}
